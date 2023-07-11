@@ -1,0 +1,4 @@
+http://www.jmc.edu/nmid
+
+username : nmidcmj
+Password : cmjnmid

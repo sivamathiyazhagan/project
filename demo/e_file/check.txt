@@ -1,0 +1,8 @@
+<br />
+<b>Warning</b>:  fopen(file/) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in <b>E:\wamp\www\student\_new\enable_Identity\crypt.php</b> on line <b>33</b><br />
+<br />
+<b>Warning</b>:  fread(): supplied argument is not a valid stream resource in <b>E:\wamp\www\student\_new\enable_Identity\crypt.php</b> on line <b>34</b><br />
+<br />
+<b>Warning</b>:  file_put_contents(file/) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in <b>E:\wamp\www\student\_new\enable_Identity\crypt.php</b> on line <b>41</b><br />
+<br />
+<b>Warning</b>:  readfile(file/) [<a href='function.readfile'>function.readfile</a>]: failed to open stream: No such file or directory in <b>E:\wamp\www\student\_new\enable_Identity\crypt.php</b> on line <b>59</b><br />

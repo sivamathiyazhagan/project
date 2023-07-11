@@ -1,0 +1,104 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 20, 2021 at 10:06 AM
+-- Server version: 5.0.51
+-- PHP Version: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `gov_health_care`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `authority`
+--
+
+CREATE TABLE `authority` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(233) NOT NULL,
+  `pwd` varchar(233) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `authority`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `health_car_provider`
+--
+
+CREATE TABLE `health_car_provider` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(233) NOT NULL,
+  `email` varchar(233) NOT NULL,
+  `pwd` varchar(233) NOT NULL,
+  `dob` varchar(233) NOT NULL,
+  `role` varchar(233) NOT NULL,
+  `state` varchar(233) NOT NULL,
+  `country` varchar(233) NOT NULL,
+  `status` int(11) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `health_car_provider`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `patient`
+--
+
+CREATE TABLE `patient` (
+  `id` int(11) NOT NULL auto_increment,
+  `name` varchar(233) NOT NULL,
+  `email` varchar(233) NOT NULL,
+  `pwd` varchar(233) NOT NULL,
+  `dob` varchar(233) NOT NULL,
+  `gender` varchar(233) NOT NULL,
+  `state` varchar(233) NOT NULL,
+  `country` varchar(233) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `patient`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `patient_file`
+--
+
+CREATE TABLE `patient_file` (
+  `id` int(11) NOT NULL auto_increment,
+  `fname` varchar(233) NOT NULL,
+  `attribute` varchar(233) NOT NULL,
+  `data` varchar(255) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `patient_file`
+--
+
